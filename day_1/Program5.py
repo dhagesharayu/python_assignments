@@ -19,6 +19,6 @@ l2=[]
 for i in listOne[1::2]:
     l1.append(i)
 for j in listTwo[0::2]:
-    l1.append(j)
+    l2.append(j)
 l3=l1+l2
 print(l3)
