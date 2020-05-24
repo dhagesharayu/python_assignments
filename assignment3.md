@@ -53,4 +53,20 @@ tri(n)
 There are also 4-digit narcissistic numbers, some of which are 1634, 8208, 9474 since
 
 ```
+def Nar_Arm(n):
+    c=n
+    sum1=0
+    d=0
+    r=[]
+    while c>0:
+        r.append(c%10)
+        c=c//10
+        d+=1
+    sum1=sum([i**d for i in r])
+    if sum1==n:
+        return "Its an armstrong Number"
+    else:
+        return "Not a armstrong number"
+n=int(input("Enter the number"))
+print(Nar_Arm(n))
 ```
