@@ -46,6 +46,17 @@ tri(n)
 
 ### Accept data in two 3*3  matrix and calculate the sum of the matrices.
 ```
+import numpy as np
+def lst():
+    l=[]
+    for i in range(9):
+        n=int(input("Enter array element"))
+        l.append(n)
+    return l
+a=np.array(lst()).reshape(3,3)
+b=np.array(lst()).reshape(3,3)
+c=[[a[i][j] + b[i][j] for j in range(len(a[0]))]for i in range(len(a))]
+print(c)
 ```
 
 ### Write a Python program to check whether a given number is a narcissistic number or not.i.e Armstrong Number
