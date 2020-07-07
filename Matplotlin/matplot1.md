@@ -102,9 +102,8 @@
 ![image](https://user-images.githubusercontent.com/63589909/86802331-8e194380-c092-11ea-8b2d-036d3714644a.png)
 ![image](https://user-images.githubusercontent.com/63589909/86802386-9cfff600-c092-11ea-858c-8ef1ac9788a4.png)
 
-
-
 ## [More details on bar chart](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.bar.html)
+## [Barh](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.barh.html#matplotlib.pyplot.barh)
 
 
 
